@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northern Arizona University Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/dd0acfc30a.js"></script>
+    <link rel="icon" type="image/png" href="images/world-wide-web.png" />
+</head>
+<body>
+    <section class="sub-header2">
+        <nav>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="downtownFlag.html" >Downtown Flagstaff</a></li>
+                    <li><a href="snowBowl.html">Arizona Snowbowl</a></li>
+                    <li><a href="otherActivities.html">Other Fun Activities</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1> Other Fun Activities</h1>
+
+</section>
+<!--SNOWBOWL SECTION-->
+<!--Courses That I have Taken--->
+<section class="course">
+
+    <h1>Some Other Fun Activities That Flagstaff Has To Offer</h1>
+ 
+    <p>A brief summary of what Snowbowl has to offer.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Lockett Meadows</h3>
+            <p>
+               Lockett Meadows is a world famous hiking trail. It is home to the beautiful Aspen Trees
+               that turn bright yellow in the fall.
+               
+            </p>
+            <img src="images/lockettMeadows4.jpg">
+        </div>
+
+        <div class="course-col">
+            <h3>Disc Golf</h3>
+            <p>
+               Believe it or not, disc golf is a fairly common outdoor activity in Flagstaff and with 
+               the beautiful scenery and nice city-run courses it makes for a  good weekend activity.
+            </p>
+            <img src="images/discGolf1.jpg">
+        </div>
+
+        <div class="course-col">
+            <h3>Sedona</h3>
+            <p>
+              Sedona is only an hour drive south of Flagstaff. Sedona is home to beautiful rich-red rock and 
+             varoius different activities.
+            </p>
+            <img src="images/sedonaPic.jpg">
+        </div>
+    </div>
+</section>
+
+<!---->
+
+<!--Footer-->
+<section class="footer">
+
+    <h4>About Me</h4>
+    <p>I am a computer science student currently enrolled at NAU from Chandler, Arizona.</p>
+    
+    <div class="icons">
+        <i><a href="https://github.com/ryanluceroo" class="fa fa-github"></a></i>
+        <i><a href="https://www.linkedin.com/in/ryan-lucero-811012260/" class="fa fa-linkedin"></a></i>
+        <i class="fa fa- fa-envelope"></i>
+    </div>
+</section>
+
+
+
+
+
+<!--   JAVASCRIPT  FOR TOGGLE MENU -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

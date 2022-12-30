@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northern Arizona University Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/dd0acfc30a.js"></script>
+    <link rel="icon" type="image/png" href="images/world-wide-web.png" />
+</head>
+<body>
+    <section class="sub-header1">
+        <nav>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="downtownFlag.html" >Downtown Flagstaff</a></li>
+                    <li><a href="snowBowl.html">Arizona Snowbowl</a></li>
+                    <li><a href="otherActivities.html">Other Fun Activities</a></li>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1> Arizona Snowbowl</h1>
+
+</section>
+<!--SNOWBOWL SECTION-->
+<!--Courses That I have Taken--->
+<section class="course">
+
+    <h1>Flagstaff's Very Own Ski Resort</h1>
+ 
+    <p>A brief summary of what Snowbowl has to offer.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Expert Terrain</h3>
+            <p>
+               Snowbowl has varous different expert terrains. 12 Black diamond trails to be exact. 
+               
+            </p>
+            <img src="images/snowbowlPic3.lpg.jfif">
+        </div>
+
+        <div class="course-col">
+            <h3>Terrain Park
+
+            </h3>
+            <p>
+                Snowbowl has a fairly nice terrain park considering that it is a fairly small resort.
+            </p>
+            <img src="images/snowbowlPic2.jpg">
+        </div>
+
+        <div class="course-col">
+            <h3>Beginner Friendly</h3>
+            <p>
+              Snowbowl offers very good beginner classes. There are also various different 
+              green<q>easy trails</q>. 10 to be exact.
+            </p>
+            <img src="images/snowbowlPic1.jpg">
+        </div>
+    </div>
+</section>
+
+<!---->
+
+<!--Footer-->
+<section class="footer">
+
+    <h4>About Me</h4>
+    <p>I am a computer science student currently enrolled at NAU from Chandler, Arizona.</p>
+    
+    <div class="icons">
+        <i><a href="https://github.com/ryanluceroo" class="fa fa-github"></a></i>
+        <i><a href="https://www.linkedin.com/in/ryan-lucero-811012260/" class="fa fa-linkedin"></a></i>
+        <i class="fa fa- fa-envelope"></i>
+    </div>
+</section>
+
+
+
+
+
+<!--   JAVASCRIPT  FOR TOGGLE MENU -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

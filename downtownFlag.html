@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northern Arizona University Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/dd0acfc30a.js"></script>
+    <link rel="icon" type="image/png" href="images/world-wide-web.png" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Downtown Flagstaff</a></li>
+                    <li><a href="snowBowl.html">Arizona Snowbowl</a></li>
+                    <li><a href="otherActivities.html">Other Fun Activities</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1> Downtown Flagstaff</h1>
+
+</section>
+
+<!---Down Town Section -->
+<section class="downTown">
+    <div class="row">
+        <div class="column">
+            <h1> Things To Do: </h1>
+            <p> Downtown Flagstaff has a rich history going as far back as 1897. In 1897 the Weatherford Hotel 
+            was established by John W. Weatherford and is pictured on the right. This hotel is still operational and <br>
+            is known by most of the locals for the new years event that they put on every year.  </p>
+
+            
+            <a href="https://www.expedia.com/Hotel-Search?destination=Downtown%20Flagstaff%2C%20Flagstaff%2C%20Arizona%2C%20United%20States%20of%20America&endDate=2023-01-13&locale=en_US&msclkid=841ad4fb47d414df0066b7556632b6ea&regionId=553248635979545617&semcid=US.UB.BING.DT-c-EN.HOTEL&semdtl=a1392812246.b11322713872110217.g1kwd-82670354155211%3Aloc-190.l1.e1c.m1841ad4fb47d414df0066b7556632b6ea.r16cb7d6ff0a5214a32c13efbf9a3a55de50f960bd18c4648027507fcdfe9978c1.c1.j177848.k143407.d182669870173133.h1e.i1.n1.o1.p1.q1.s1.t1.x1.f1.u1.v1.w1&siteid=1&sort=RECOMMENDED&startDate=2023-01-12&theme=&useRewards=false&userIntent=" 
+            class="hero-btn gold-btn" target="_blank">Downtown Hotels</a>
+        <div class="column2">
+            <h2>Other Things To Do:</h2>
+            <p>
+                Some other things to do in warm weather include: Check out Heritage Square or Wheeler Park,<br> enjoy live music,
+                visit the bars and enjoy the nice weather!<br>
+                When the weather is cold you can: Sit down at one of the cafes and enjoy a hot drink, visit the <br>Weatherford 
+                hotel and Monte Vista hotel, have warm drinks by the fire pit and check out the local shops!
+               
+            </p>
+            <a href="https://www.flagstaff.com/downtown" class="hero-btn gold-btn" target="_blank">Things To Do</a>
+            
+        </div>
+        </div>
+        <div class="column">
+            <img src="images/weatherfordhotel1.jpg">
+        </div>
+
+        
+    </div>
+</section>
+
+
+
+<!--Footer-->
+<section class="footer">
+
+    <h4>About Me</h4>
+    <p>I am a computer science student currently enrolled at NAU from Chandler, Arizona.</p>
+    
+    <div class="icons">
+        <i><a href="https://github.com/ryanluceroo" class="fa fa-github"></a></i>
+        <i><a href="https://www.linkedin.com/in/ryan-lucero-811012260/" class="fa fa-linkedin"></a></i>
+        <i class="fa fa- fa-envelope"></i>
+    </div>
+</section>
+
+
+
+
+
+<!--   JAVASCRIPT  FOR TOGGLE MENU -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
